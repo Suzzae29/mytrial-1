@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style type="text/css">
+     #box{
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+      }
+     #button{
+     color: white;
+     background-color: rgb(65, 156, 65);
+     border-radius: 4px;
+     border: none;
+     width: 53px;
+     height: 25px;
+    }
+     .form{
+     border-radius: 5px;
+     background-color: #f1efef;
+     padding: 20px;
+     }
+     .font{
+     font-family: Arial;
+     font-size: 14px;
+    }
+
+     #content{
+     width: 100%;
+     height: 150px;
+     box-sizing: border-box;
+     margin: 8px 0;
+     display: inline-block;
+     border: 1px solid #ccc;
+     border-radius: 4px;   
+     padding: 12px 20px;
+     font-family: Arial;
+     }
+    </style>
+</head>
+<body>
+    <form class="form">
+         <div> 
+         <strong><label class="font">First Name</label></strong>
+         <input type="Name" id="box" name="Name" placeholder="Your first name...">
+        </div> 
+
+        <div>
+          <strong><label class="font">Last Name</label></strong>
+          <input type="Last Name"  id="box" name="Name" placeholder="Your last name...">
+        </div>
+
+        <div>
+          <strong><label class="font">Country</label></strong>
+          <select id="box">
+              <option value="australia">Australia</option>
+              <option value="benin">Benin</option>
+              <option value="cote d'ivoire">Cote D'Ivoire</option>
+              <option value="ghana">Ghana</option>
+              <option value="nigeria">Nigeria</option>
+          </select>
+        </div>
+
+        <div>
+             <strong><label class="font">Subject</label></strong>
+            <textarea id="content" placeholder="Write something..."></textarea> 
+         </div>
+         <button id="button">Submit</button>        
+    </form> 
+</body>
+</html>
